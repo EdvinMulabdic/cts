@@ -18,7 +18,7 @@
             </plugin>
         </plugins>
     </build>
-    <name>CTS</name>
+    <name>ICS</name>
 
     <properties>
         <spring.version>4.1.1.RELEASE</spring.version>
