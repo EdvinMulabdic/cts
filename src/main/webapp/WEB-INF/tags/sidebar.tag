@@ -17,10 +17,25 @@
                                     Engineer dashboard</span></a></li>
                     <li><a class="submenu" href="/add_engineer_form"><i
                             class="icon-plus"></i><span class="hidden-tablet">
-                                    Add a engineer</span></a></li>
+                                    Add engineer</span></a></li>
                     <li><a class="submenu" href="<c:url value="/engineer_list"/>"><i
                             class="icon-list"></i><span class="hidden-tablet">
                                     Engineer list</span></a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="dropmenu" href="#"><i class="icon-certificate"></i><span class="hidden-tablet">
+                                Certificate Durations</span> </a>
+                <ul>
+                    <li><a class="submenu" href="<c:url value="/durations"/>"><i
+                            class="icon-bar-chart"></i><span class="hidden-tablet">
+                                    Durations Dashboard</span></a></li>
+                    <li><a class="submenu" href="<c:url value="/add_duration_form"/>"><i class="icon-plus"></i><span
+                            class="hidden-tablet">
+                                    Add duration</span></a></li>
+                    <li><a class="submenu" href="<c:url value="/duration_list"/>"><i class="icon-list"></i><span
+                            class="hidden-tablet">
+                                    Duration list</span></a></li>
                 </ul>
             </li>
             <li>
@@ -33,28 +48,13 @@
                                     Server dashboard </span></a></li>
                     <li><a class="submenu" href="<c:url value="/add_server_form"/>"><i class="icon-plus"></i><span
                             class="hidden-tablet">
-                                    Add a server </span></a></li>
+                                    Add server </span></a></li>
                     <li><a class="submenu" href="<c:url value="/server_list"/>"><i class="icon-list"></i><span
                             class="hidden-tablet">
                                     Server list</span></a></li>
                 </ul>
             </li>
 
-            <li>
-                <a class="dropmenu" href="#"><i class="icon-certificate"></i><span class="hidden-tablet">
-                                Certificate Durations</span> </a>
-                <ul>
-                    <li><a class="submenu" href="<c:url value="/durations"/>"><i
-                            class="icon-bar-chart"></i><span class="hidden-tablet">
-                                    Durations Dashboard</span></a></li>
-                    <li><a class="submenu" href="<c:url value="/add_duration_form"/>"><i class="icon-plus"></i><span
-                            class="hidden-tablet">
-                                    Add a duration</span></a></li>
-                    <li><a class="submenu" href="<c:url value="/duration_list"/>"><i class="icon-list"></i><span
-                            class="hidden-tablet">
-                                    Duration list</span></a></li>
-                </ul>
-            </li>
             <li>
                 <a class="dropmenu" href="#"><i class="icon-file"></i><span class="hidden-tablet">
                                 Reports</span> </a>

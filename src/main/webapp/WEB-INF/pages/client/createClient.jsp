@@ -11,7 +11,7 @@
                 <i class="icon-angle-right"></i>
                 <a href="<c:url value="/server_dashboard"/>">Servers</a>
                 <i class="icon-angle-right"></i>
-                <a>Add a server</a>
+                <a>Add server</a>
             </li>
         </ul>
         <div class="box-content">

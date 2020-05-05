@@ -13,7 +13,7 @@
                 <i class="icon-angle-right"></i>
                 <a href="<c:url value="/durations"/>">Durations</a>
                 <i class="icon-angle-right"></i>
-                <a>Add a duration</a>
+                <a>Add duration</a>
             </li>
         </ul>
 
@@ -29,7 +29,7 @@
                     </div>
 
                     <div class="control-group">
-                        <label class="control-label" for="certificateDuration">Duration time</label>
+                        <label class="control-label" for="certificateDuration">Duration time (in years)</label>
                         <div class="controls">
                             <input class="input-xlarge focused" id="certificateDuration" name="certificateDuration" type="number" value="3" min="0" required>
                         </div>

@@ -116,7 +116,7 @@
                     </div>
                     <input type="text" name="clientId" value="${clientId}" style="display: none">
                     <div class="box-icon" style="text-align: center">
-                        <button type="submit" class="btn btn-primary">Add a certificate</button>
+                        <button type="submit" class="btn btn-primary">Add certificate</button>
                     </div>
                 </form:form>
             </div><!--/span-->

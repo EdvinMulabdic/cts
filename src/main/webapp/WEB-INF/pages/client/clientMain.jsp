@@ -14,7 +14,7 @@
         <div class="row-fluid">
             <a class="quick-button metro orangeDark span2" href="<c:url value="/add_server_form"/>">
                 <i class="icon-plus"></i>
-                <p>Add a server</p>
+                <p>Add server</p>
             </a>
             <a class="quick-button metro blue span2" href="<c:url value="/server_list"/>">
                 <i class="icon-list"></i>

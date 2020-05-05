@@ -14,7 +14,7 @@
         <div class="row-fluid">
             <a class="quick-button metro orange span2" href="<c:url value="/add_duration_form"/>">
                 <i class="icon-plus"></i>
-                <p>Add a certificate duration</p>
+                <p>Add certificate duration</p>
             </a>
             <a class="quick-button metro blueDark span2" href="<c:url value="/duration_list"/>">
                 <i class="icon-list"></i>

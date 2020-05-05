@@ -26,7 +26,7 @@
                                 </li>
 
                                 <li class="dropdown-menu-sub-footer" id="allNotifications">
-                                    <a href="<c:url value="/notifications_dashboard"/>">Sent Emails</a>
+                                    <a href="<c:url value="/notifications_dashboard"/>">Expiring Certificates</a>
                                 </li>
                             </ul>
                         </li>

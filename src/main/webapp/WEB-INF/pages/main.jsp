@@ -17,14 +17,14 @@
                 <p>Engineers</p>
                 <span class="badge"></span>
             </a>
-            <a class="quick-button metro yellow span2" href="<c:url value="/server_dashboard"/>">
-                <i class="icon-briefcase"></i>
-                <p>Servers</p>
-                <span class="badge"></span>
-            </a>
             <a class="quick-button metro greenDark span2" href="<c:url value="/durations"/>">
                 <i class="icon-certificate"></i>
                 <p>Certificate durations</p>
+                <span class="badge"></span>
+            </a>
+            <a class="quick-button metro yellow span2" href="<c:url value="/server_dashboard"/>">
+                <i class="icon-briefcase"></i>
+                <p>Servers</p>
                 <span class="badge"></span>
             </a>
             <a class="quick-button metro red span2" href="<c:url value="/report_dashboard"/>">

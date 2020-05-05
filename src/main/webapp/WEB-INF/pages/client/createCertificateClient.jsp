@@ -15,7 +15,7 @@
                 <i class="icon-angle-right"></i>
                 <a href="<c:url value="/server_certificates"><c:param name="clientId" value="${client.id}"/></c:url>">Certificates</a>
                 <i class="icon-angle-right"></i>
-                <a>Add a certificate</a>
+                <a>Add certificate</a>
             </li>
         </ul>
 

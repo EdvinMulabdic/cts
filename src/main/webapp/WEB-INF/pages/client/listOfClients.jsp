@@ -27,7 +27,7 @@
         <div class="row-fluid sortable">
             <div class="box span12 responsive-tabela">
                 <div class="box-header" data-original-title id="height">
-                    <h2><i class="halflings-icon white user"></i><span class="break"></span>Certificate List</h2>
+                    <h2><i class="halflings-icon white user"></i><span class="break"></span>Server List</h2>
                 </div>
                 <div class="box-content">
                     <table class="table table-striped table-bordered bootstrap-datatable datatable">

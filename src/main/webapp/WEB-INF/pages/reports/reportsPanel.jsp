@@ -20,10 +20,10 @@
                 <i class="icon-list"></i>
                 <p>Certificate search by duration</p>
             </a>
-            <a class="quick-button metro greenLight span2" href="<c:url value="/engineer_search_report"/>">
+ <%--           <a class=&lt;%&ndash;&ndash;%&gt;"quick-button metro greenLight span2" href="<c:url value="/engineer_search_report"/>">
                 <i class="icon-list"></i>
                 <p>Search by engineer name</p>
-            </a>
+            </a>--%>
         </div>
     </div>
 </t:wrapper>
