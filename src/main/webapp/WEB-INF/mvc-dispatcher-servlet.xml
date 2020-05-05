@@ -20,7 +20,7 @@
     <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource"
           id="dataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://b6bf8449f32f3f:3382af09@eu-cdbr-west-03.cleardb.net/heroku_f80dd0adb6613e8?reconnect=true?useUnicode=true&amp;connectionCollation=utf8_general_ci&amp;characterSetResults=utf8&amp;characterEncoding=utf-8&amp;serverTimezone=UTC&amp;useSSL=false"/>
+        <property name="url" value="jdbc:mysql://eu-cdbr-west-03.cleardb.net/heroku_f80dd0adb6613e8?reconnect=true?useUnicode=true&amp;connectionCollation=utf8_general_ci&amp;characterSetResults=utf8&amp;characterEncoding=utf-8&amp;serverTimezone=UTC&amp;useSSL=false"/>
         <property name="username" value="b6bf8449f32f3f"/>
         <property name="password" value="3382af09"/>
     </bean>
