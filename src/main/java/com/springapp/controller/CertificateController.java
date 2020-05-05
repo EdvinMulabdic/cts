@@ -35,9 +35,9 @@ public class CertificateController {
     public String createCertificate(@RequestParam("certificateName") String certificateName,
                                     @RequestParam("certificateDuration") String certificateDuration, Model model) {
         if(certificateService.createCertificate(certificateName,certificateDuration)) {
-            model.addAttribute("success", "Certificate successfully added.");
+            model.addAttribute("success", "Certificate duration successfully added.");
         } else {
-            model.addAttribute("error", "Certificate not added.");
+            model.addAttribute("error", "Certificate duration not added.");
         }
         if (LoginController.isUserLoggedIn())
             return "redirect:/duration_list";
@@ -57,9 +57,9 @@ public class CertificateController {
     public String updateCertificate(@RequestParam("certificateName") String certificateName,
                                     @RequestParam("certificateDuration") String certificateDuration, HttpServletRequest request, Model model) {
         if(certificateService.updateCertificate(certificateName, certificateDuration, request.getParameter("certificateId"))) {
-            model.addAttribute("success", "Certificate successfully updated.");
+            model.addAttribute("success", "Certificate duration successfully updated.");
         } else {
-            model.addAttribute("error", "Certificate not updated.");
+            model.addAttribute("error", "Certificate duration not updated.");
         }
         if (LoginController.isUserLoggedIn())
             return "redirect:/duration_list";
@@ -79,9 +79,9 @@ public class CertificateController {
     @RequestMapping(value= "/delete_duration",params = "certificateId", method = RequestMethod.GET)
     public String deleteCertificate(@RequestParam(value = "certificateId") String certificateId, Model model) {
         if(certificateService.deleteCertificate(certificateId)) {
-            model.addAttribute("success", "Certificate successfully deleted.");
+            model.addAttribute("success", "Certificate duration successfully deleted.");
         } else {
-            model.addAttribute("error", "Certificate not deleted.");
+            model.addAttribute("error", "Certificate duration not deleted.");
         }
         if (LoginController.isUserLoggedIn())
             return "redirect:/duration_list";

@@ -132,10 +132,10 @@ public class CertificateClientController {
         String clientId = request.getParameter("clientIdHidden");
 
         if(certificateClientService.updateCertificateClient(isAccredited,certificateNumber, date, standardDuration)) {
-            model.addAttribute("success", "Validation successfully added.");
+            model.addAttribute("success", "Certificate successfully added.");
             model.addAttribute("clientId", clientId);
         } else {
-            model.addAttribute("error", "Validation adding failed.");
+            model.addAttribute("error", "Certificate adding failed.");
             model.addAttribute("clientId", clientId);
         };
 
@@ -163,10 +163,10 @@ public class CertificateClientController {
         String clientId = request.getParameter("clientIdHidden");
 
         if(certificateClientService.addRevision(certificateNumber, revision, date)) {
-            model.addAttribute("success", "Validation successfully added.");
+            model.addAttribute("success", "Certificate successfully added.");
             model.addAttribute("clientId", clientId);
         } else {
-            model.addAttribute("error", "Validation add failed.");
+            model.addAttribute("error", "Certificate add failed.");
             model.addAttribute("clientId", clientId);
         };
 
