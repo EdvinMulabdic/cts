@@ -42,8 +42,6 @@
                                 <input class="input-large span10" name="password" id="password" type="password" placeholder="type password"/>
                             </div>
                             <div class="clearfix"></div>
-                            <span style="color: cornflowerblue; font-weight: bold; font-size: large; margin-left: 30px; margin-top: 25px;">Tratinciceeee, happy B day!!!!</span>
-                            <span style="color: red; font-weight: bold;font-size: large"> <3 <3 <3 </span>
                             <div class="button-login">
                                 <button type="submit" class="btn btn-primary">Login</button>
                             </div>
