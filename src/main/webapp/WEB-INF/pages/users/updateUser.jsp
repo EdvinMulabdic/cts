@@ -40,7 +40,7 @@
                     <div class="control-group">
                         <label class="control-label" for="email">Email</label>
                         <div class="controls">
-                            <input class="input-xlarge focused" id="email" name="email" type="text" value="${user.email}" required disabled>
+                            <input class="input-xlarge focused" id="email" name="email" type="text" value="${user.email}" required readonly>
                         </div>
                     </div>
                     <div class="control-group">
